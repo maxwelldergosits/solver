@@ -1,0 +1,9 @@
+public interface Controller {
+
+    public void makeMove(String move); 
+    
+    public int getCurrentPiece(); 
+    
+    public int[] getNextPieces(); 
+
+}
